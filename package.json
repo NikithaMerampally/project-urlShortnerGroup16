@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Scalable URL Shortner Project Requirement\r Phase I",
   "main": "index.js",
-  "scripts": {
+   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
